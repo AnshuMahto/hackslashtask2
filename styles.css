@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 2vw;
+}
+.navleft{
+    width: 20vw;
+    height: 0.4vw;
+}
+.navleft:first-child{
+    background-image: url("image1.svg");
+    width: 200px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navright ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3vw;
+    align-items: center;
+    padding:0vw 3vw;
+}
+.navright ul li{
+    cursor: pointer;
+    border: .3px solid rgba(0, 0, 0, 0.661);
+    padding: 5px 10px;
+    border-radius:20px ;
+    transition: linear .2s;
+    color: black;
+}
+.navright ul li a{
+    text-decoration: none;
+}
+.navright ul li:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.03);
+}
+.body{
+    width: 100vw;
+    position: relative;
+}
+.body video{
+    width: 98vw;
+    object-fit: cover;
+    margin-left: 1vw;
+}
+.div1{
+    position: absolute;
+    z-index: 9;
+    top: 5vw;
+    left: 2.2vw;
+    color: black;
+    font-size: 4vw;
+    line-height: 4.5vw;
+    text-align: left;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+}
+.line{
+    height: 1px;
+    width: 98%;
+    background-color: rgb(23, 15, 3);
+    margin-top: 1vw;
+    margin-left: 2vw;
+    border-radius: 3px;
+}
+.div2 {
+    width: 100vw;
+    margin-top: 1vw;
+    padding: .2vw 2vw;
+    font-family: "Poppins", sans-serif;
+}
+.div2 h1{
+     padding: 7px;
+     font-size: 2.3vw;
+     font-weight: 600;
+}
+.div2 p{
+    padding: 7px;
+     font-size: 1.4vw;
+     font-weight: 300;
+}
+.cards{
+    margin-top: 2vw;
+    padding: 0px .5vw;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: rgb(186, 183, 183);
+
+    width: 23vw;
+    height: 30vw;
+    border-radius: 4px;
+    
+}
+.card div img{
+    height: 15vw;
+    border-radius: 4px;
+}
+.card h2{
+    line-height: 2vw;
+    margin-left: 1vw;
+    margin-top: .6vw;
+    height: 4vw;
+}
+.card p{
+    line-height:1.5vw ;
+    margin: 1vw .5vw;
+    font-size: medium;
+}
+.matrixs{
+    margin-top: 1vw;
+    width: 100vw;
+    display: flex;
+    gap: 6vw;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgba(234, 234, 234, 0.909);
+    color: rgb(75, 75, 75);
+    font-family: "Poppins", sans-serif;
+}
+.matrixs ul{
+      width: 22vw;
+      min-height: 15vw;
+      margin-top: 2vw;
+      list-style-type: none;
+
+}
+.matrixs ul h2{
+      padding: 1vw 1vw;
+}
+
+.matrixs ul li {
+    line-height: 2vw;
+    padding: 0px 2vw ;
+    cursor: pointer;
+}
+
+
